@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".details.DetailsNewsFragment">
+
+    <TextView
+        android:id="@+id/det_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Название" />
+
+    <ImageView
+        android:id="@+id/det_main_photo"
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        android:layout_marginTop="8dp"
+        android:maxHeight="214dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/det_statistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статистика команд"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Чемпионат Премьер-лиги КФС "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сезон 2019/20"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Всего Дома В гостях"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/det_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="Сыгранных матчей: "
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        tools:text="" />
+    <TextView
+        android:id="@+id/det_players"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статистика игроков"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="И	ЗМ	ПМ	НП	АГ	ЖК	КК	Мин."
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/det_description_players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="Игроки: "
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        tools:text="" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пояснение"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:text="И - число игр (в т.ч. в стартовом составе),
+ЗМ - число забитых мячей (в т.ч. с пенальти),
+ПМ - число пропущенных мячей (в т.ч. с пенальти),
+НП - число нереализованных пенальти,
+АГ - число забитых мячей в свои ворота,
+ЖК - число желтых карточек,
+КК - число красных карточек (в т.ч. за повторное предупреждение),
+Мин. - число минут, проведенных на поле"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        tools:text="" />
+</LinearLayout>
+</ScrollView>
+
